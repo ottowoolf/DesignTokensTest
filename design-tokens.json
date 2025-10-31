@@ -1,9 +1,218 @@
 {
   "global": {},
+  "global/global": {
+    "brand": {
+      "primary": {
+        "value": "#0060ae",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#122346",
+        "type": "color"
+      }
+    },
+    "text": {
+      "strong": {
+        "value": "#122346",
+        "type": "color",
+        "description": "To be used for headings and titles"
+      },
+      "weak": {
+        "value": "#4a5773",
+        "type": "color"
+      }
+    },
+    "stroke": {
+      "strong": {
+        "value": "#7e8ba6",
+        "type": "color"
+      },
+      "weak": {
+        "value": "#e6e9f0",
+        "type": "color"
+      }
+    },
+    "background": {
+      "default": {
+        "value": "#f5f6fa",
+        "type": "color"
+      },
+      "light": {
+        "value": "#fafafc",
+        "type": "color"
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "dark": {
+        "value": "#e6e9f0",
+        "type": "color"
+      }
+    },
+    "alert": {
+      "success": {
+        "value": "#00b9ad",
+        "type": "color"
+      },
+      "error": {
+        "value": "#f15b5b",
+        "type": "color"
+      },
+      "warning": {
+        "value": "#ffb54c",
+        "type": "color"
+      },
+      "info": {
+        "value": "#007bb9",
+        "type": "color"
+      }
+    },
+    "extended": {
+      "debian-red": {
+        "value": "#d81159",
+        "type": "color"
+      }
+    },
+    "regular": {
+      "value": "Regular",
+      "type": "text"
+    },
+    "medium": {
+      "value": "Medium",
+      "type": "text"
+    },
+    "semiBold": {
+      "value": "SemiBold",
+      "type": "text"
+    },
+    "Roboto": {
+      "value": "Roboto",
+      "type": "text",
+      "description": "This font is utilised across all of ASHM’s desktop and responsive mobile assets.\nThis includes the ASHM corporate website as well as any other ancillary platforms."
+    },
+    "H1": {
+      "value": 40,
+      "type": "number",
+      "description": "To be used in hero section headers"
+    },
+    "H2": {
+      "value": 32,
+      "type": "number",
+      "description": "To be used in main section headings e.g. Conferences and Events"
+    },
+    "H3": {
+      "value": 24,
+      "type": "number",
+      "description": "To be used in section titles e.g. Top courses, Health Topic Hubs,"
+    },
+    "H4": {
+      "value": 20,
+      "type": "number",
+      "description": "To be used in card titles e.g. Guidelines and Resources\n HIV card title, Hepetitis B card title"
+    },
+    "sub-heading": {
+      "value": 18,
+      "type": "number",
+      "description": "To be used for sub-heading under main heading and titles"
+    },
+    "body-default": {
+      "value": 16,
+      "type": "number",
+      "description": "base font size for all text description and content"
+    },
+    "body-sm": {
+      "value": 14,
+      "type": "number",
+      "description": "To be used for smaller elements e.g. tags, small buttons"
+    },
+    "tiny-text": {
+      "value": 12,
+      "type": "number",
+      "description": "To be used as necessary, but avoid if possible"
+    },
+    "border-radius": {
+      "default": {
+        "value": 16,
+        "type": "number"
+      },
+      "small": {
+        "value": 8,
+        "type": "number"
+      },
+      "round": {
+        "value": 100,
+        "type": "number"
+      }
+    },
+    "negative-sm": {
+      "value": -0.5,
+      "type": "number",
+      "description": "To be used for medium headings"
+    },
+    "negative-md": {
+      "value": -1,
+      "type": "number",
+      "description": "to be used for large headings"
+    },
+    "spacing": {
+      "xs": {
+        "value": 8,
+        "type": "number"
+      },
+      "sm": {
+        "value": 12,
+        "type": "number"
+      },
+      "base": {
+        "value": 16,
+        "type": "number"
+      },
+      "md": {
+        "value": 24,
+        "type": "number"
+      },
+      "lg": {
+        "value": 32,
+        "type": "number"
+      },
+      "xl": {
+        "value": 40,
+        "type": "number"
+      },
+      "2xl": {
+        "value": 48,
+        "type": "number"
+      },
+      "3xl": {
+        "value": 64,
+        "type": "number"
+      }
+    }
+  },
+  "Components/Components": {
+    "btn-default-bg": {
+      "default": {
+        "value": "{brand.primary}",
+        "type": "color"
+      }
+    },
+    "btn-radius": {
+      "value": 100,
+      "type": "number",
+      "description": "To be used on all buttons (not tags or links)"
+    },
+    "Number": {
+      "value": 40,
+      "type": "number"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global"
+      "global",
+      "global/global",
+      "Components/Components"
     ]
   }
 }
